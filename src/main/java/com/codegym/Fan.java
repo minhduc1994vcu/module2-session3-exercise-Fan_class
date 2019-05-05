@@ -1,23 +1,11 @@
 package com.codegym;
 
 public class Fan {
-    private final int slow = 1, medium = 2, fast = 3;
+    public static final int slow = 1, medium = 2, fast = 3;
     private int speed = slow;
     private boolean on = false;
     private double radius = 5;
     private String color = "blue";
-
-    public int getSlow() {
-        return slow;
-    }
-
-    public int getMedium() {
-        return medium;
-    }
-
-    public int getFast() {
-        return fast;
-    }
 
     public int getSpeed() {
         return speed;
